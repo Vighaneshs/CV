@@ -1,0 +1,168 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=11in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.6cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheaing}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\begin{minipage}{0.5\linewidth}
+\textbf{\Large Vighanesh Sharma}\\
+\text{Computer Science and Engineering (CSE)}\\
+\text{Indian Institute of Technology(IIT) Ropar} \\
+\end{minipage}
+&
+\begin{minipage}{0.5\linewidth}
+\text{Email: vighaneshsharma@gmail.com}\\
+\text{Alternative Email: vighaneshsha@gmail.com}\\
+\text{Contact No.: +91-9796466366} \\
+\end{minipage}
+
+\resheading{\textbf{EDUCATION} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 2.0in} l @{\hskip 2.0in} l @{\hskip .5in} l}
+\hline
+\textbf{Qualification} & \textbf{Institute} & \textbf{Year}\\
+\hline
+B.Tech \textbf{(CSE)} & IIT Ropar & 2017-2021\\
+Intermediate/+2 & JKPS (CBSE) & 2016\\
+Matriculation & JKPS (CBSE)  & 2014\\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\
+\vspace{1.0pt}
+
+\resheading{\textbf{CERTIFICATION} }\\[\lsep]
+\vspace{2.0pt}
+\begin{itemize}
+\item \textbf{Indian Institute of Science (IISc)} \hfill \emph{January - November 2022}\\
+Advanced Certification Program on 'Digital Health and Imaging Technology'. I got an \textbf{A+ or 10 Grade Point}. 
+\end{itemize}
+
+\resheading{\textbf{RELEVANT COURSES} }\\[\lsep]
+\vspace{2.0pt}
+\begin{itemize}[itemsep=0.1pt]
+\item \noindent \textbf{Computer Science} : Data Structures and Algorithms, Operating Systems, Databases, Applied Cryptography, Computer Graphics, Networks, Software Engineering, Theory of Computation,  Algorithms and Design, Computer Architecture,
+Programming Paradigms and Pragmatics, Digital Logic Design,
+Imaging Technology, Digital Health, Data Science, Discrete Mathematical Structures, 
+\item \noindent \textbf{Mathematics} : Calculus, Probability and Statistics, Linear Algebra, Integral Transforms
+and Special Functions, Differential Equations.
+\item \noindent \textbf{Electrical Engineering} : Signals and Systems, Basic Electronics.
+\item \noindent \textbf{Physics} : Physics For Engineers, Fundamentals of Nuclear Physics, Thermal and Statistical Physics
+\end{itemize}
+
+\resheading{\textbf{SKILLS} }\\[\lsep]
+\vspace{2.0pt}
+\begin{itemize}[itemsep=0.1pt]
+
+\item \noindent \textbf{Programming Languages} : Python, C/C++, Golang, HTML, JavaScript, TypeScript, Java
+\item \noindent \textbf{Software/Tools} : Kubernetes, Docker, Linux, FluentD, FluentBit, Grafana, Loki, Guacamole, Prometheus, Git, BDD, REST, PostgreSQL, NoSQL, Angular, scikit-learn, PyTorch
+\end{itemize}
+
+\resheading{\textbf{WORK EXPERIENCE} }\\[\lsep]
+\vspace{2.0pt}
+\begin{itemize}
+\item \textbf{GE HealthCare} \hfill \emph{July 2021 - present}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+
+Software Engineer (Edison HealthLink PaaS)
+	\begin{itemize}\itemsep \isep
+	\item I am designing, building and enhancing \textbf{PaaS components} for Edison HealthLink \textbf{compute platform}. I am engineering \textbf{services} for \textbf{logging}, \textbf{monitoring} and \textbf{connectivity} in a \textbf{high-availability cluster}.   
+	\end{itemize}
+
+Software Engineer (EEDP Technical Leadership Program)
+	\begin{itemize}\itemsep \isep
+	\item As part of Imaging Cybersecurity team, I developed \textbf{micro-services} in \textbf{Go} and \textbf{Angular} to enable \textbf{Secure Service Access} for service users and worked on the \textbf{micro-services} for \textbf{RBAC} (Role Based Access Control) and other Security Components.
+	\item I have filed a \textbf{Patent} for an \textbf{Intrusion Detection System}.
+	\end{itemize}
+
+Software Intern (EID), \hfill \emph{June 2020 - August 2020}
+	\begin{itemize}\itemsep \isep
+	\item  Developed a 3D Web Based CT Scan Viewer using \textbf{VTK.js, Cornerstone.js} and \textbf{HTML}.
+	\end{itemize}
+\end{itemize}
+
+\resheading{\textbf{ACHIEVEMENTS} }\\[\lsep]
+\vspace{1.0pt}
+
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item Filed a patent for an Intrusion Detection System, recognized for going \textbf{Above and Beyond} at GEHealthCare
+\item Secured a Rank of \textbf{2029, \textasciitilde 99.8 Percentile} (out of 1 million candidates) in \textbf{JEE
+Advanced 2017}.
+\end{itemize}
+
+\resheading{\textbf{PROJECTS} }\\[\lsep]
+\vspace{2.0pt}
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item \textbf{Visual Cryptography} - Researched and Implemented different \textbf{Visual Secret Sharing} Schemes and compiled all the results to synthesize \textbf{Coloured Visual Secret Sharing Scheme} for \textbf{General Access Structures in Python}.
+\item \textbf{Cryptanalysis} of different AES like Lightweight Cryptography Algorithms
+\item Prediction of Fetal Acidosis using Cardiotocography data
+\item Spam SMS \textbf{prediction} in C Language
+\item Developed a game on \textbf{FPGA} using \textbf{Verilog}
+\item Various \textbf{Game Projects} on \textbf{Unity3D}
+\item Faculty Leave Management System using \textbf{PostgreSQL, NoSQL(MongoDB) and NodeJS}.
+\end{itemize}
+
+
+\resheading{\textbf{POSITION OF RESPONSIBILITY} }\\[\lsep]
+\vspace{2.0pt}
+\begin{itemize}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\item \textbf{Table Tennis Representative (2018-2019)}
+\item \textbf{Hostel Representative (2018-2019)}
+\item BAJA SAEINDIA 2017 \textbf{Volunteer}.
+\item \textbf{Mentor} of juniors in Institute Student Mentorship(ISMP) Programme, IIT Ropar 2018.
+\item \textbf{Event Coordinator} of Annual Cultural fest (Zeitgeist), IIT Ropar. 
+\end{itemize}
+
+
+\end{document}
+
